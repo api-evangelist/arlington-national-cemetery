@@ -1,0 +1,79 @@
+{
+    "id": "6c6f59903c3b895e8b4e68e40123a8b3",
+    "name": "Arlington National Cemetery Burial Record",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "7185b5ef704295ec05a1d1e940c248c2",
+            "name": "Searches Burial Records",
+            "url": "httpwspublic.iss.army.mil\/IssRetrieveServices.svc\/\/search\/",
+            "description": "Searches Burial Records",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "This is the maximum number of records to return at one time. The interface has been designed for paging and is reliable when the limit ranges between 1 and 1,000. Counts greater than 1,000 may exceed memory availability on the server.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "method",
+                    "description": "This should be a valid JavaScript identifier that corresponds to the method on the page for processing the returned information.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "q",
+                    "description": "A comma separated list of query parameters.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortColumn",
+                    "description": "A comma separated list of column used to sort. The columns are arranged in priority order, i.e. PrimaryLastName, PrimaryFirstName would provide the data set sorted by last name and then first name.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortOrder",
+                    "description": "ASC\/DESC ascending or descending, values not in this set will be automatically set to ascending.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "This is the number of the first record to return from the result set. This value is limited from 0 to the number of records in the result set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6c6f59903c3b895e8b4e68e40123a8b3",
+            "rawModeData": ""
+        }
+    ]
+}
