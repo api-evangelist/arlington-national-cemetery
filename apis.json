@@ -1,0 +1,77 @@
+{
+    "name": "Arlington National Cemetery",
+    "description": "Welcome to Arlington National Cemetery\u2019s official Facebook page.    Arlington National Cemetery is our nation\u2019s most hallowed ground. More than 400,000 people are buried here, to include veterans from all our nation\u2019s wars. Arlington has been the final...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ArlingtonNationalCemetery_Logo@2x.png",
+    "tags": [
+        "api provider",
+        "general data",
+        "have api",
+        "historical data api",
+        "veterans"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/arlington-national-cemetery\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Arlington National Cemetery Burial Record",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ArlingtonNationalCemetery_Logo@2x.png",
+            "humanURL": "http:\/\/wspublic.iss.army.mil",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/arlington-national-cemetery-burial-record.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/arlington-national-cemetery-burial-record-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Arlington National Cemetery Mapping API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ArlingtonNationalCemetery_Logo@2x.png",
+            "humanURL": "http:\/\/wspublic.iss.army.mil",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/arlington-national-cemetery-mapping-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/arlington-national-cemetery-mapping-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/wspublic.iss.army.mil\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.arlingtoncemetery.mil\/Developers"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/wspublic.iss.army.mil"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.arlingtoncemetery.mil\/"
+        },
+        {
+            "type": "Wikipedia",
+            "url": "http:\/\/en.wikipedia.org\/wiki\/Arlington_National_Cemetary"
+        }
+    ]
+}
